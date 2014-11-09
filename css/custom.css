@@ -2,50 +2,105 @@
 
 margin-left: 10px;
 margin-top: 30px;
+font-family: "Courier New", Courier, monospace;
 
 }
 
-.name, .about { 
-
-
-margin-left: 60px;
-margin-right: 450px;
 
 }
 
 .name { 
 
-margin-top: 80px;
+margin-top: 100px;
+font-family: "Courier New", Courier, monospace
 
 }
 
 .about { 
 
-margin-bottom: 
-85px
 
-;
-}
-
-.images { 
-margin-left: 300px;
-
+font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 }
+
+
 
 .thanks { 
  
  margin-top: 200px;
  margin-bottom: 200px;
 margin-left: 410px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
 }
 
 .more 
 
 { 
 
- margin-left: 40px; 
- margin-right: 20px;
+
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+ font-size: 20px;
+
 
 
 }
+
+body {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+
+
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+
+} 
+
+.test { 
+
+font-size: 30px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
+}
+
+.navbar {
+    background-color: #003333;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #FFF;
+font-size: 16px
+
+} 
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #555;
+background-color: #FFF;
+
+} 
+
+.center { 
+
+margin-left: 500px;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #003333;
+border-color: #003333;
+
+}
+
+.navbar-collapse {
+padding-right: 40px;
+padding-left: 200px;
+
